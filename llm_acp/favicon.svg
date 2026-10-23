@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>ACP 练习室</title>
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="#4653A6"/>
+  <path d="M18 46 32 17l14 29" fill="none" stroke="#FFFEFA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 37h14" fill="none" stroke="#F2AD79" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="light">
   <title>ACP 练习室 · 本地刷题</title>
   <meta name="description" content="阿里云大模型 ACP 本地刷题：逐题练习、即时解析、进度保存。">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <style>
     :root {
       --bg: #f8f6f1; --surface: #fffefa; --ink: #232936; --muted: #576071;
@@ -23,7 +24,7 @@
     .site-header { border-bottom: 1px solid var(--line); background: rgba(255,254,250,.92); }
     .header-inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
     .brand { border: 0; background: none; padding: 8px 0; display: inline-flex; align-items: center; gap: 11px; color: var(--ink); font-size: 17px; font-weight: 800; letter-spacing: -.02em; }
-    .brand-mark { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 11px; background: var(--blue); color: white; font-size: 15px; letter-spacing: -.04em; }
+    .brand-mark { display: block; width: 36px; height: 36px; flex: none; }
     .local-tag { border: 1px solid #cdd2dd; color: var(--muted); border-radius: 999px; padding: 5px 11px; font-size: 12px; white-space: nowrap; }
     main { padding-top: 42px; padding-bottom: 70px; }
     .eyebrow { display: inline-block; margin: 0 0 12px; color: var(--blue); font-size: 13px; font-weight: 800; letter-spacing: .08em; }
@@ -177,7 +178,7 @@
 </head>
 <body>
   <header class="site-header"><div class="shell header-inner">
-    <button class="brand" id="brand-home" type="button" aria-label="返回试卷列表"><span class="brand-mark" aria-hidden="true">ACP</span><span>ACP 练习室</span></button>
+    <button class="brand" id="brand-home" type="button" aria-label="返回试卷列表"><img class="brand-mark" src="./favicon.svg" alt="" width="36" height="36"><span>ACP 练习室</span></button>
     <span class="local-tag">本地刷题 · 自动记进度</span>
   </div></header>
   <main class="shell" id="app"></main>
